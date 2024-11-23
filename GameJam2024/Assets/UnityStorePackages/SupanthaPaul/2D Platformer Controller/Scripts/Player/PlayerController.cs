@@ -75,7 +75,7 @@ namespace SupanthaPaul
 			m_extraJumps = extraJumpCount;
 			m_dashTime = startDashTime;
 			m_dashCooldown = dashCooldown;
-			m_extraJumpForce = jumpForce * .7f;
+			m_extraJumpForce = jumpForce * 0.7f;
 
 			m_rb = GetComponent<Rigidbody2D>();
 			m_dustParticle = GetComponentInChildren<ParticleSystem>();

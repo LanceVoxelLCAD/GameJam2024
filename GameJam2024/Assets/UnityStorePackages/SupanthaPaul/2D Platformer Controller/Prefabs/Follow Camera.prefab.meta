@@ -10,5 +10,6 @@ AssetOrigin:
   productId: 245475
   packageName: 2D Platformer Controller (with animated character)
   packageVersion: 1.0.0
-  assetPath: Assets/SupanthaPaul/2D Platformer Controller/Prefabs/Follow Camera.prefab
+  assetPath: Assets/UnityStorePackages/SupanthaPaul/2D Platformer Controller/Prefabs/Follow
+    Camera.prefab
   uploadId: 558839

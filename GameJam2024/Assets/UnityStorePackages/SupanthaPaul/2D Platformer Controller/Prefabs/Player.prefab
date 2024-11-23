@@ -147,8 +147,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.64, y: 1.64, z: 1.64}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1865938916397552048}
   - {fileID: 5796272189899729260}
@@ -269,6 +269,8 @@ MonoBehaviour:
   slideSpeed: 2.5
   wallJumpForce: {x: 10.5, y: 18}
   wallClimbForce: {x: 4, y: 14}
+  penNib: {fileID: 0}
+  penTip: {fileID: 0}
 --- !u!114 &1173712999407116002
 MonoBehaviour:
   m_ObjectHideFlags: 0

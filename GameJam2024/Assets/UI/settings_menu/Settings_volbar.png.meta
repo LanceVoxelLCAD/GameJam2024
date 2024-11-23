@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Settings_volbar_0: 144524582764063211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

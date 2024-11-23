@@ -363,7 +363,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pause_menu_main_0: 5060243633921561199
+      pause_menu_main_1: 7181386417654388571
+      pause_menu_main_2: -3167912648574416362
+      pause_menu_main_3: -8488251001108836082
+      pause_menu_main_4: 4545242485659679116
+      pause_menu_main_5: 3393273643952324975
+      pause_menu_main_6: 3519530858733873151
+      pause_menu_main_7: -3325847567071276235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

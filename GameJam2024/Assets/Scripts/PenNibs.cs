@@ -55,7 +55,7 @@ public class PenNibs : MonoBehaviour
         Damagable damagable = collision.gameObject.GetComponentInParent<Damagable>();
         if (damagable != null && collision.gameObject.tag != "Player") { damagable.Damage(missileDamage); }
 
-        Debug.LogError("HitSomething");
+        //Debug.LogError("HitSomething");
 
         Destroy(gameObject);
     }

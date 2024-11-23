@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NibBulletUP_0: 6566103804304359092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

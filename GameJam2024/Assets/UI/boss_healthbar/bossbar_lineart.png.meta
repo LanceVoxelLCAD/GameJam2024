@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bossbar_lineart_0: 198107247936458772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

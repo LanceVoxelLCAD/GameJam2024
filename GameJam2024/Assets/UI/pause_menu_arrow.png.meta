@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pause_menu_arrow_0: -3873711532780303701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

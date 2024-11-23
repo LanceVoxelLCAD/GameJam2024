@@ -315,12 +315,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612136950}
   m_CullTransparentMesh: 0
---- !u!4 &627742601 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
-    type: 3}
-  m_PrefabInstance: {fileID: 1865938916563621656}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &642496409
 GameObject:
   m_ObjectHideFlags: 0
@@ -13496,6 +13490,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894671987}
   m_CullTransparentMesh: 1
+--- !u!4 &1920129486 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
+    type: 3}
+  m_PrefabInstance: {fileID: 1865938916563621656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1979152647
 GameObject:
   m_ObjectHideFlags: 0
@@ -13825,16 +13825,26 @@ PrefabInstance:
         type: 3}
       propertyPath: penTip
       value: 
-      objectReference: {fileID: 627742601}
+      objectReference: {fileID: 1920129486}
     - target: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.12
+      value: 0.931
       objectReference: {fileID: 0}
     - target: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
         type: 3}
@@ -13845,6 +13855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796272189899729251, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

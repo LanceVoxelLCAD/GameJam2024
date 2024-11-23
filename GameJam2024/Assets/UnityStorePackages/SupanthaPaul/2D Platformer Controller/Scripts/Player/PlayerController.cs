@@ -61,6 +61,9 @@ namespace SupanthaPaul
 		private int m_onWallSide = 0;
 		private int m_playerSide = 1;
 
+		[Header("Inspector Hookups")]
+		public GameObject penNib;
+		public Transform penTip;
 
 		void Start()
 		{
@@ -179,6 +182,8 @@ namespace SupanthaPaul
 
 		private void Update()
 		{
+			AdditionalActions();
+
 			// horizontal input
 			moveInput = InputSystem.HorizontalRaw();
 
@@ -251,7 +256,15 @@ namespace SupanthaPaul
 
 		}
 
-		void Flip()
+		void AdditionalActions()
+		{
+			if (Input.GetMouseButtonDown(0))
+			{
+				Instantiate(penNib, penTip.position, penTip.rotation);
+			}
+		}
+
+        void Flip()
 		{
 			m_facingRight = !m_facingRight;
 			Vector3 scale = transform.localScale;

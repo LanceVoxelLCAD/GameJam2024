@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c01ba4908f4ef10489760be1f3f6d80a
+guid: ae11c83530e068c4e88dac36329b022a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4876843816340886015
-    second: normal ceiling_0
+      213: 4646014430063692765
+    second: attackbosscolor-0001_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: normal ceiling_0
+      name: attackbosscolor-0001_0
       rect:
         serializedVersion: 2
-        x: 263
-        y: 384
-        width: 513
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1280
+        height: 720
+      alignment: 9
+      pivot: {x: 0.50370616, y: 0.0045163864}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff11f02cc970ea340800000000000000
-      internalID: 4876843816340886015
+      spriteID: ddb094d2285f97040800000000000000
+      internalID: 4646014430063692765
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 661d7bb15c798bd4b8a6037437d4d4ff
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      normal ceiling_0: 4876843816340886015
+      attackbosscolor-0001_0: 4646014430063692765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

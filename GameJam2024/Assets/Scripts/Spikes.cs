@@ -11,7 +11,7 @@ public class Spikes : MonoBehaviour
     public float timeSafe = 1f;
     public float timeHit;
 
-    private void Start()
+    private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("PlayerSkin");
         playerSkin = player.GetComponent<SpriteRenderer>();

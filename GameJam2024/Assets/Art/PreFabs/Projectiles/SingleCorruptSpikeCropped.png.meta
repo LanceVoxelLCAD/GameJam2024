@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 99bfee022bca4bb4f805e89df80167b5
+guid: 266c6d95decc0b0449d53af8caaf70d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4475208171775642291
-    second: Dash10_0
-  - first:
-      213: 4506264363692977353
-    second: Dash10_1
-  - first:
-      213: 9157534904444983199
-    second: Dash10_2
-  - first:
-      213: -7787685039209837448
-    second: Dash10_3
+      213: -8371977210170545200
+    second: SingleCorruptSpikeCropped_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -174,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dash10_0
+      name: SingleCorruptSpikeCropped_0
       rect:
         serializedVersion: 2
-        x: 699
-        y: 426
-        width: 40
-        height: 23
+        x: 6
+        y: 8
+        width: 110
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,71 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3bacc9e1f122b1e30800000000000000
-      internalID: 4475208171775642291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash10_1
-      rect:
-        serializedVersion: 2
-        x: 745
-        y: 414
-        width: 114
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ccebe54097798e30800000000000000
-      internalID: 4506264363692977353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash10_2
-      rect:
-        serializedVersion: 2
-        x: 870
-        y: 422
-        width: 136
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f971fa51a79161f70800000000000000
-      internalID: 9157534904444983199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dash10_3
-      rect:
-        serializedVersion: 2
-        x: 1017
-        y: 427
-        width: 39
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87c064fb7b59ce390800000000000000
-      internalID: -7787685039209837448
+      spriteID: 0db6e108513c0db80800000000000000
+      internalID: -8371977210170545200
       vertices: []
       indices: 
       edges: []
@@ -267,11 +195,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Dash10_0: 4475208171775642291
-      Dash10_1: 4506264363692977353
-      Dash10_2: 9157534904444983199
-      Dash10_3: -7787685039209837448
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

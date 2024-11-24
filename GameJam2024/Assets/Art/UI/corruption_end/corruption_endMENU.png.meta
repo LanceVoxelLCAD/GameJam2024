@@ -363,7 +363,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      corruption_endMENU_0: -7932405385527285667
+      corruption_endMENU_1: 3680651110667318694
+      corruption_endMENU_2: 8902840354449219304
+      corruption_endMENU_3: -4200500927386730256
+      corruption_endMENU_4: 4739428071024170808
+      corruption_endMENU_5: -7667157885007519023
+      corruption_endMENU_6: 3283111073667208050
+      corruption_endMENU_7: -5997711408642920497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

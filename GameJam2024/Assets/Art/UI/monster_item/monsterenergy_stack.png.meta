@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monsterenergy_stack_0: -5762889068490756934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

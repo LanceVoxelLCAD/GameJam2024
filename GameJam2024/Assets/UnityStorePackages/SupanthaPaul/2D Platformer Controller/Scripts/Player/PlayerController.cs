@@ -82,6 +82,8 @@ namespace SupanthaPaul
 
 			m_rb = GetComponent<Rigidbody2D>();
 			m_dustParticle = GetComponentInChildren<ParticleSystem>();
+
+			//GameDataManager.instance.ExampleFunction();
 		}
 
 		private void FixedUpdate()

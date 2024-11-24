@@ -483,7 +483,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      super corrupt UPDATED_0: 2666748357303429384
+      super corrupt UPDATED_1: 7998660957961425869
+      super corrupt UPDATED_10: 2394163654910429730
+      super corrupt UPDATED_11: 5843054031422664148
+      super corrupt UPDATED_12: -5075411115373066859
+      super corrupt UPDATED_2: -6238137118279782971
+      super corrupt UPDATED_3: -1618662180023790501
+      super corrupt UPDATED_4: 4076194387796095895
+      super corrupt UPDATED_5: -6096176908037021970
+      super corrupt UPDATED_6: -3831316899557679380
+      super corrupt UPDATED_7: -2296989191000986404
+      super corrupt UPDATED_8: -3552488272776689153
+      super corrupt UPDATED_9: -8348798796274999214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

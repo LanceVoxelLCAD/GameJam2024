@@ -483,7 +483,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Props corrupt UPDATED_0: 3850557607392603040
+      Props corrupt UPDATED_1: 4938585730244958406
+      Props corrupt UPDATED_10: -6612549469783211458
+      Props corrupt UPDATED_11: -6202710673488863119
+      Props corrupt UPDATED_12: -3586320723965223321
+      Props corrupt UPDATED_2: -3652171660203482596
+      Props corrupt UPDATED_3: -7283224320069843562
+      Props corrupt UPDATED_4: -7280169705766084768
+      Props corrupt UPDATED_5: -2420183913373712364
+      Props corrupt UPDATED_6: -4596099222176176445
+      Props corrupt UPDATED_7: -351308434501516175
+      Props corrupt UPDATED_8: -7460922533349325019
+      Props corrupt UPDATED_9: -1221247073911777875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -148,3 +148,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spikeCollider: {fileID: 0}
+  timeSafe: 1
+  timeHit: 0

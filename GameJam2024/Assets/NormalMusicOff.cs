@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NormalMusicTrigger : MonoBehaviour
+public class NormalMusicOff : MonoBehaviour
 {
     AudioSource source;
     Collider2D soundTrigger;

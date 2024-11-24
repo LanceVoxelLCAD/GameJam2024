@@ -28,6 +28,7 @@ public class GoToMainMenu : MonoBehaviour
         GameDataManager.instance.timerActive = false;
         GameDataManager.instance.needToReturnPlayer = false;
         GameDataManager.instance.playerLost = false;
+        GameDataManager.instance.playerWon = false;
         GameDataManager.instance.PauseGame(false);
     }
 }

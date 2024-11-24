@@ -13,6 +13,11 @@ public class Damagable : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+
+            if (gameObject.name == "BigBoss")
+            {
+                GameDataManager.instance.playerWon = true;
+            }
         }
     }
 }

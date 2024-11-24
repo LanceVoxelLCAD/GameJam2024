@@ -69,7 +69,6 @@ namespace SupanthaPaul
 		public float shotDelay = 3f;
 
 		public Vector2 lastGroundedPos;
-		public bool paused = false;
 		public GameObject pauseMenu;
 
 		void Start()
@@ -289,16 +288,15 @@ namespace SupanthaPaul
                 }
 			}
 
-            if (Input.GetKeyDown(KeyCode.Escape) && !paused)
+            if (Input.GetKeyDown(KeyCode.Escape) && Time.timeScale == 1)
             {
 				pauseMenu.SetActive(true);
-                Time.timeScale = 0;
-				paused = true;
-            } else if (Input.GetKeyDown(KeyCode.Escape) && paused)
+                GameDataManager.instance.PauseGame(true);
+
+            } else if (Input.GetKeyDown(KeyCode.Escape) && Time.timeScale == 0)
 			{
 				pauseMenu.SetActive(false);
-				Time.timeScale = 1;
-				paused = false;
+				GameDataManager.instance.PauseGame(false);
 			}
         }
 

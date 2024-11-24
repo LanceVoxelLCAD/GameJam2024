@@ -16,6 +16,12 @@ public class Spikes : MonoBehaviour
         {
             GameDataManager.instance.lifeAmount--;
 
+            if (GameDataManager.instance.lifeAmount <= 0)
+            {
+                GameDataManager.instance.lifeAmount = 0;
+                GameDataManager.instance.playerLost = true;
+            }
+
             if (curScene.name == "Level" & GameDataManager.instance.timerActive)
             {
                 GameDataManager.instance.needToReturnPlayer = true;

@@ -7,7 +7,7 @@ public class Spikes : MonoBehaviour
 {
     public SpriteRenderer playerSkin;
     public Collider2D spikeCollider;
-    public float timeSafe = 2f;
+    public float timeSafe = 1f;
     public float timeHit;
 
     private void Start()

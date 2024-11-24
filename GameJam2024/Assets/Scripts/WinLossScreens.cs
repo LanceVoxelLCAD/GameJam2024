@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinLossScreens : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class WinLossScreens : MonoBehaviour
         {
             GameDataManager.instance.PauseGame(true);
             lossScreen.SetActive(true);
-        } else if (GameDataManager.instance.playerWon)
+        } 
+        else if (GameDataManager.instance.playerWon)
         {
             GameDataManager.instance.PauseGame(true);
             wonScreen.SetActive(true);

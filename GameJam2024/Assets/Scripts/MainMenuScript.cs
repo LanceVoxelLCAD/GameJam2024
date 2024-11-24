@@ -24,6 +24,7 @@ public class MainMenuScript : MonoBehaviour
     private void OnButtonClicked()
     {
         //Debug.Log("Button Clicked!");
+        GameDataManager.instance.PauseGame(false);
         GameDataManager.instance.ShiftScene(sceneName);
     }
 }

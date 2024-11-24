@@ -9,6 +9,8 @@ public class GameDataManager : SceneSingleton<GameDataManager>
     public bool timerActive;
     public bool needToReturnPlayer;
     public bool playerLost;
+    public bool playerWon;
+
 
     protected override void Awake()
     {
@@ -25,11 +27,11 @@ public class GameDataManager : SceneSingleton<GameDataManager>
     {
         if (isPaused)
         {
-            Time.timeScale = 1;
+            Time.timeScale = 0;
             isPaused = false;
         } else if (!isPaused)
         {
-            Time.timeScale = 0;
+            Time.timeScale = 1;
             isPaused = true;
         }
        

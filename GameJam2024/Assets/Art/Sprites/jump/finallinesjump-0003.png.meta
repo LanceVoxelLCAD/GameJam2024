@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 266c6d95decc0b0449d53af8caaf70d6
+guid: 26cfb27f4c54e8d46b6f50025c541dac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8371977210170545200
-    second: SingleCorruptSpikeCropped_0
+      213: 1992432148859445525
+    second: finallinesjump-0003_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SingleCorruptSpikeCropped_0
+      name: finallinesjump-0003_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 8
-        width: 110
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 39
+        width: 269
+        height: 423
+      alignment: 9
+      pivot: {x: 0.50484675, y: 0.033551887}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db6e108513c0db80800000000000000
-      internalID: -8371977210170545200
+      spriteID: 511e5d7ab7a86ab10800000000000000
+      internalID: 1992432148859445525
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9727f34224da8f74d9be3c1f2c1abe6d
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SingleCorruptSpikeCropped_0: -8371977210170545200
+      finallinesjump-0003_0: 1992432148859445525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

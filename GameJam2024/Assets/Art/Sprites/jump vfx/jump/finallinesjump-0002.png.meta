@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 266c6d95decc0b0449d53af8caaf70d6
+guid: 0e45c585a1b846843945cbe8f3d7f215
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8371977210170545200
-    second: SingleCorruptSpikeCropped_0
+      213: -3416885752802202654
+    second: finallinesjump-0002_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SingleCorruptSpikeCropped_0
+      name: finallinesjump-0002_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 8
-        width: 110
-        height: 127
+        x: 127
+        y: 30
+        width: 265
+        height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0db6e108513c0db80800000000000000
-      internalID: -8371977210170545200
+      spriteID: 2eba122e288c490d0800000000000000
+      internalID: -3416885752802202654
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SingleCorruptSpikeCropped_0: -8371977210170545200
+      finallinesjump-0002_0: -3416885752802202654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

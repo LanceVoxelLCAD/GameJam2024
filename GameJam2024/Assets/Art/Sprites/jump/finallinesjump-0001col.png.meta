@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 259fcd7e8ce17304492efbc7b0d2ce9d
+guid: c4322c38062ac8442bdd35d465671867
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2568452226832572611
-    second: finallinesrun-0006_0
+      213: -8271755974340118549
+    second: finallinesjump-0001col_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: finallinesrun-0006_0
+      name: finallinesjump-0001col_0
       rect:
         serializedVersion: 2
         x: 119
@@ -173,14 +173,14 @@ TextureImporter:
         width: 240
         height: 477
       alignment: 9
-      pivot: {x: 0.53078395, y: 0.024402186}
+      pivot: {x: 0.53440565, y: 0.018024439}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3f5515de460b5cd0800000000000000
-      internalID: -2568452226832572611
+      spriteID: be7fdb854c1d43d80800000000000000
+      internalID: -8271755974340118549
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9dff8c3e182335343a7158076845be8e
+    spriteID: 5e52f2dd61a451947b735671ccdd7e7d
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      finallinesrun-0006_0: -2568452226832572611
+      finallinesjump-0001col_0: -8271755974340118549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

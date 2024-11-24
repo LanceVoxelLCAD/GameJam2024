@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Spikes : MonoBehaviour
 {
+    private GameObject player;
     public SpriteRenderer playerSkin;
     public Collider2D spikeCollider;
     public float timeSafe = 1f;
@@ -12,6 +13,8 @@ public class Spikes : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("PlayerSkin");
+        playerSkin = player.GetComponent<SpriteRenderer>();
         timeHit = Time.time;
     }
 

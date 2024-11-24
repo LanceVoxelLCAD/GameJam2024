@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 6e2da1fe7ec9f604c8e425b0f905abe2
+guid: f706a35d9375d8a4a811161441d0234d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7405762479881987002
-    second: boss arena-noglitch_0
+      213: 2049828048361736581
+    second: Dash9_0
+  - first:
+      213: -8103364890795479259
+    second: Dash9_1
+  - first:
+      213: -8538435540408104576
+    second: Dash9_2
+  - first:
+      213: 1714409548170266724
+    second: Dash9_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +174,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss arena-noglitch_0
+      name: Dash9_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 692
+        y: 419
+        width: 51
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +188,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64cd7bf0342793990800000000000000
-      internalID: -7405762479881987002
+      spriteID: 589cb31efb3727c10800000000000000
+      internalID: 2049828048361736581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash9_1
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 422
+        width: 265
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f63c6b0901b8f80800000000000000
+      internalID: -8103364890795479259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash9_2
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 427
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08987645d12618980800000000000000
+      internalID: -8538435540408104576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dash9_3
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 397
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4680a36966ecac710800000000000000
+      internalID: 1714409548170266724
       vertices: []
       indices: 
       edges: []
@@ -195,8 +267,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      boss arena-noglitch_0: -7405762479881987002
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

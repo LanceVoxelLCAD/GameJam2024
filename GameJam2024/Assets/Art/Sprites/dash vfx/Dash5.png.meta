@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6e2da1fe7ec9f604c8e425b0f905abe2
+guid: 7eeb3a94fa8d5e44caf80cdbd669c13f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7405762479881987002
-    second: boss arena-noglitch_0
+      213: -1862610462366064260
+    second: Dash5_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss arena-noglitch_0
+      name: Dash5_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 792
+        y: 416
+        width: 226
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64cd7bf0342793990800000000000000
-      internalID: -7405762479881987002
+      spriteID: c71aebb27ada626e0800000000000000
+      internalID: -1862610462366064260
       vertices: []
       indices: 
       edges: []
@@ -195,8 +195,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      boss arena-noglitch_0: -7405762479881987002
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

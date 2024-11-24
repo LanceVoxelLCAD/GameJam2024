@@ -9,6 +9,7 @@ public class Damagable : MonoBehaviour
     public float health = 100f;
     private float maxBossHealth = 500f;
     public Slider bossHealthBar;
+    public GameObject BigBoss;
     public GameObject cornerSpriteGood;
     public GameObject cornerSpriteHurt;
 
@@ -34,6 +35,11 @@ public class Damagable : MonoBehaviour
             if (gameObject.name == "BigBoss")
             {
                 GameDataManager.instance.playerWon = true;
+            }
+
+            if (gameObject.name == "Bossnormalfinal")
+            {
+                BigBoss.SetActive(true);
             }
         }
     }

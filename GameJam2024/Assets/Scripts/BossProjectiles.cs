@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossProjectiles : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 8f;
     //public Vector2 velocity = new Vector2(0, 15f);
     public float missileDamage = 12.5f;
 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 11ae3379ca187e644a69aac55aa06540
+guid: b83c8c22a6d002f458738b07bfc08343
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1722694012607711005
-    second: windows_tut2_0
+      213: 1667129703293077607
+    second: Idleboss-0005_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: windows_tut2_0
+      name: Idleboss-0005_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 795
-        height: 488
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 262
+        y: 51
+        width: 571
+        height: 425
+      alignment: 9
+      pivot: {x: 0.5317215, y: 0.07892919}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e833d93ce2c718e0800000000000000
-      internalID: -1722694012607711005
+      spriteID: 768494fd1a5d22710800000000000000
+      internalID: 1667129703293077607
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a2bbf165f3660424dbfc01bbe4392db1
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      windows_tut2_0: -1722694012607711005
+      Idleboss-0005_0: 1667129703293077607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

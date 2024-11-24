@@ -42,7 +42,8 @@ public class Spikes : MonoBehaviour
                 GameDataManager.instance.playerLost = true;
             }
 
-            if (curScene.name == "Level" & GameDataManager.instance.timerActive)
+            //if (curScene.name == "Level" & GameDataManager.instance.timerActive)
+            if (curScene.name == "Level")
             {
                 GameDataManager.instance.needToReturnPlayer = true;
             }

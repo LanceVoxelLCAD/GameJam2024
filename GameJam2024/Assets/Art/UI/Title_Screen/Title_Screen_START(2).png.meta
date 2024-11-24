@@ -291,7 +291,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Title_Screen_START(2)_0: -6268066406588128255
+      Title_Screen_START(2)_1: -3590802755355177825
+      Title_Screen_START(2)_2: 2977130567961608123
+      Title_Screen_START(2)_3: -6012654441300010280
+      Title_Screen_START(2)_4: -6301602265736531810
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

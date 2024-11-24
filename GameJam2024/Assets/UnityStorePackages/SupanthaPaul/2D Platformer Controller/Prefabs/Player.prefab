@@ -277,6 +277,8 @@ MonoBehaviour:
   penTip: {fileID: 1865938915660024764}
   shotDelay: 0.3
   lastGroundedPos: {x: 0, y: 0}
+  pauseMenu: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &1173712999407116002
 MonoBehaviour:
   m_ObjectHideFlags: 0

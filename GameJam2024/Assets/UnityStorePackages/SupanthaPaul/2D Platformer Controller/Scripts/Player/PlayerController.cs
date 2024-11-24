@@ -71,8 +71,12 @@ namespace SupanthaPaul
 		public Vector2 lastGroundedPos;
 		public GameObject pauseMenu;
 
+		public Animator animator;
+
 		void Start()
 		{
+			animator = GetComponentInChildren<Animator>();
+
 			// create pools for particles
 			PoolManager.instance.CreatePool(dashEffect, 2);
 			PoolManager.instance.CreatePool(jumpEffect, 2);
@@ -120,8 +124,12 @@ namespace SupanthaPaul
 				}
 				else
 				{
-					if(canMove && !m_wallGrabbing)
+					if (canMove && !m_wallGrabbing)
+					{
 						m_rb.velocity = new Vector2(moveInput * speed, m_rb.velocity.y);
+						animator.SetFloat("Speed", moveInput);
+					}
+					
 					else if(!canMove)
 						m_rb.velocity = new Vector2(0f, m_rb.velocity.y);
 				}
@@ -210,7 +218,11 @@ namespace SupanthaPaul
 			// grounded remember offset (for more responsive jump)
 			m_groundedRemember -= Time.deltaTime;
 			if (isGrounded)
+			{
 				m_groundedRemember = m_groundedRememberTime;
+				animator.SetBool("IsJumping", false);
+			}
+	
 
 			if (!isCurrentlyPlayable) return;
 			// if not currently dashing and hasn't already dashed in air once
@@ -249,6 +261,8 @@ namespace SupanthaPaul
 				m_rb.velocity = new Vector2(m_rb.velocity.x, jumpForce);
 				// jumpEffect
 				PoolManager.instance.ReuseObject(jumpEffect, groundCheck.position, Quaternion.identity);
+
+				animator.SetBool("IsJumping", true);
 			}
 			else if(InputSystem.Jump() && m_wallGrabbing && moveInput!=m_onWallSide )		// wall jumping off the wall
 			{

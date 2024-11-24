@@ -436,12 +436,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01885316e43337141ae0750479792b95, type: 3}
---- !u!4 &627742601 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
-    type: 3}
-  m_PrefabInstance: {fileID: 1865938916563621656}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &729003703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,25 +3353,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1865938915375051438, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
         type: 3}
-      propertyPath: penNib
-      value: 
-      objectReference: {fileID: 2792416922794976910, guid: f4069beff9828a748a920f5feac56b33,
-        type: 3}
-    - target: {fileID: 1865938915375051438, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
-        type: 3}
-      propertyPath: penTip
-      value: 
-      objectReference: {fileID: 627742601}
-    - target: {fileID: 1865938915375051438, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
-        type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 2041222373708204231}
-    - target: {fileID: 1865938915375051438, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
-        type: 3}
-      propertyPath: shotDelay
-      value: 0.3
-      objectReference: {fileID: 0}
     - target: {fileID: 1865938915660024764, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3400,14 +3378,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6168694401612163669, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6168694401612163669, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
-        type: 3}
       propertyPath: monsterTxt
       value: 
       objectReference: {fileID: 2096094975}
+    - target: {fileID: 7625407229849861468, guid: 3c02ac99ebd71b24cb0f7c53261c4241,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

@@ -1,3 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameDataManager : SceneSingleton<GameDataManager>
 {
@@ -7,8 +11,14 @@ public class GameDataManager : SceneSingleton<GameDataManager>
         base.Awake();
     }
 
-    public void ExampleFunction()
+    public void ShiftScene(string sceneName)
     {
-
+        //Debug.Log("LevelLoaded");
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
+
+    //public void ExampleFunction()
+    //{
+
+    //}
 }

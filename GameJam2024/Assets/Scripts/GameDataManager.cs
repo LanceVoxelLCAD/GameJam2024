@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameDataManager : SceneSingleton<GameDataManager>
 {
+    public float lifeAmount;
+    public bool timerActive;
+    public bool needToReturnPlayer;
 
     protected override void Awake()
     {
@@ -13,7 +16,7 @@ public class GameDataManager : SceneSingleton<GameDataManager>
 
     public void ShiftScene(string sceneName)
     {
-        //Debug.Log("LevelLoaded");
+        Debug.Log("LevelLoaded");
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 

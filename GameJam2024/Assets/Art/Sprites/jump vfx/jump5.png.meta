@@ -78,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -171,12 +171,12 @@ TextureImporter:
       name: jump5_0
       rect:
         serializedVersion: 2
-        x: 613
-        y: 354
-        width: 174
-        height: 129
+        x: 614
+        y: 351
+        width: 357
+        height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,31 +188,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: jump5_1
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 351
-        width: 120
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 990aef7c60267d7e0800000000000000
-      internalID: -1740814949690728295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b69191316a7ebea4f8a637a98a7c2853
     internalID: 0
     vertices: []
     indices: 

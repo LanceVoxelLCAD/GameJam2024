@@ -68,6 +68,8 @@ namespace SupanthaPaul
 		private float nextShotTime = 0f;
 		public float shotDelay = 3f;
 
+		public Vector2 lastGroundedPos;
+
 		void Start()
 		{
 			// create pools for particles
@@ -195,7 +197,14 @@ namespace SupanthaPaul
 			if (isGrounded)
 			{
 				m_extraJumps = extraJumpCount;
+				lastGroundedPos = transform.position;
 			}
+
+			//DEBUG
+			//if (Input.GetKeyDown(KeyCode.L))
+			//{
+			//	transform.position = lastGroundedPos;
+			//}
 
 			// grounded remember offset (for more responsive jump)
 			m_groundedRemember -= Time.deltaTime;
@@ -263,6 +272,12 @@ namespace SupanthaPaul
 
 		void AdditionalActions()
 		{
+			if (GameDataManager.instance.needToReturnPlayer == true)
+			{
+				transform.position = lastGroundedPos;
+                GameDataManager.instance.needToReturnPlayer = false;
+			}
+
 			if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
 			{
                 if (Time.time > nextShotTime)

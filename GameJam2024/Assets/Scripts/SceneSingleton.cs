@@ -1,4 +1,6 @@
 
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SceneSingleton<T> : MonoBehaviour where T : SceneSingleton<T>
@@ -11,11 +13,17 @@ public class SceneSingleton<T> : MonoBehaviour where T : SceneSingleton<T>
         {
             instance = this as T;
             DontDestroyOnLoad(this.gameObject);
-
+            //Debug.Log("This happened");
         }
         else
         {
             Destroy(this.gameObject);
         }
     }
+
+
+
+
+
+
 }

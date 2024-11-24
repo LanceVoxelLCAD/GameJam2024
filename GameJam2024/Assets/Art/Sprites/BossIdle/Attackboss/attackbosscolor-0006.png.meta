@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a6a5bc6294cdaf24888b546d55fd0d97
+guid: 99a7032e6b7944749a0e5472dca1608a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8271755974340118549
-    second: finallinesjump-0001col_0
+      213: -4381492580826932726
+    second: attackbosscolor-0006_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: finallinesjump-0001col_0
+      name: attackbosscolor-0006_0
       rect:
         serializedVersion: 2
-        x: 119
-        y: 0
-        width: 240
-        height: 477
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 351
+        y: 58
+        width: 521
+        height: 515
+      alignment: 9
+      pivot: {x: 0.50081795, y: 0.00758027}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be7fdb854c1d43d80800000000000000
-      internalID: -8271755974340118549
+      spriteID: a0a1dcd36bfc133c0800000000000000
+      internalID: -4381492580826932726
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 87580e6280b81d243bbe4df0852ada3d
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      finallinesjump-0001col_0: -8271755974340118549
+      attackbosscolor-0006_0: -4381492580826932726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

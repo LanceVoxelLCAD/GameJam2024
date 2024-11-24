@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SingleCorruptSpikeCropped_0: -8371977210170545200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

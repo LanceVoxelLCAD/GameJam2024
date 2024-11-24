@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: a8f0e752e6610dc4dae36c457ddde857
+guid: 3000ef1050bd2b84fa7bc76871bc8963
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1924878808819806893
-    second: wires copy_0
-  - first:
-      213: 6089544414576533194
-    second: wires copy_1
+      213: 5082895037837747480
+    second: SingleCorruptSpike_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -168,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wires copy_0
+      name: SingleCorruptSpike_0
       rect:
         serializedVersion: 2
-        x: 969
-        y: 802
-        width: 109
-        height: 278
+        x: 363
+        y: 195
+        width: 693
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,29 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35d4e9cfbe47945e0800000000000000
-      internalID: -1924878808819806893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wires copy_1
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 404
-        width: 836
-        height: 676
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ace5cca9168628450800000000000000
-      internalID: 6089544414576533194
+      spriteID: 8152ae84b121a8640800000000000000
+      internalID: 5082895037837747480
       vertices: []
       indices: 
       edges: []
@@ -212,16 +188,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      wires copy_0: -1924878808819806893
-      wires copy_1: 6089544414576533194
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

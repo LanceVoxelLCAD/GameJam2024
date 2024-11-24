@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6a635ab6d7e050940b364f0ccfedb116
+guid: 70bf038d7af25ec4786ee2b41199dfa4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3780511953581203438
-    second: Backgroud4(Glitch)_0
+      213: 3464831469649216826
+    second: gen_boss_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Backgroud4(Glitch)_0
+      name: gen_boss_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 6760
-        height: 1080
+        width: 790
+        height: 484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 210aca1886ce88bc0800000000000000
-      internalID: -3780511953581203438
+      spriteID: a35490b3ddd851030800000000000000
+      internalID: 3464831469649216826
       vertices: []
       indices: 
       edges: []
@@ -195,8 +195,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Backgroud4(Glitch)_0: -3780511953581203438
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

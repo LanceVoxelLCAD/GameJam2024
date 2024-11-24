@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: c91f12cbd51a3ec41ace692f9c184b5d
+guid: c0c25bdfc280dd042b0d414eb7d71211
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8293252976334206271
-    second: title_screen_start1_0
+      213: 6136970560572098610
+    second: corruption_endRESTART_0
   - first:
-      213: -5698094455122426852
-    second: title_screen_start1_1
+      213: -6826458442846341655
+    second: corruption_endRESTART_1
   - first:
-      213: 5536235255109872393
-    second: title_screen_start1_2
+      213: -9128764499305525460
+    second: corruption_endRESTART_2
   - first:
-      213: 5923623286643254832
-    second: title_screen_start1_3
+      213: 8943622111360200895
+    second: corruption_endRESTART_3
   - first:
-      213: 7852134654939443641
-    second: title_screen_start1_4
+      213: 5634449738752123247
+    second: corruption_endRESTART_4
+  - first:
+      213: -2880625964605697276
+    second: corruption_endRESTART_5
+  - first:
+      213: -5612175736892379228
+    second: corruption_endRESTART_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -177,13 +183,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: title_screen_start1_0
+      name: corruption_endRESTART_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6
-        width: 221
-        height: 312
+        x: 17
+        y: 14
+        width: 33
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ca06298b5278ec80800000000000000
-      internalID: -8293252976334206271
+      spriteID: 2380ee3b536ea2550800000000000000
+      internalID: 6136970560572098610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_screen_start1_1
+      name: corruption_endRESTART_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 5
-        width: 225
-        height: 313
+        x: 97
+        y: 14
+        width: 35
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c140ec9684d4ce0b0800000000000000
-      internalID: -5698094455122426852
+      spriteID: 9e57d20e63c8341a0800000000000000
+      internalID: -6826458442846341655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_screen_start1_2
+      name: corruption_endRESTART_2
       rect:
         serializedVersion: 2
-        x: 259
-        y: 0
-        width: 243
-        height: 316
+        x: 175
+        y: 14
+        width: 33
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90b61ddd1a8a4dc40800000000000000
-      internalID: 5536235255109872393
+      spriteID: c2f82bcdd0d105180800000000000000
+      internalID: -9128764499305525460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_screen_start1_3
+      name: corruption_endRESTART_3
       rect:
         serializedVersion: 2
-        x: 420
-        y: 2
-        width: 217
-        height: 314
+        x: 250
+        y: 14
+        width: 45
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0366a979effe43250800000000000000
-      internalID: 5923623286643254832
+      spriteID: fb034f8cce02e1c70800000000000000
+      internalID: 8943622111360200895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: title_screen_start1_4
+      name: corruption_endRESTART_4
       rect:
         serializedVersion: 2
-        x: 605
-        y: 0
-        width: 224
-        height: 314
+        x: 335
+        y: 13
+        width: 38
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,8 +281,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b13334cdd268fc60800000000000000
-      internalID: 7852134654939443641
+      spriteID: f61ec1f4f26913e40800000000000000
+      internalID: 5634449738752123247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corruption_endRESTART_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 14
+        width: 33
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40319e882f5f508d0800000000000000
+      internalID: -2880625964605697276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corruption_endRESTART_6
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 14
+        width: 45
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afa671e6eb8d12b0800000000000000
+      internalID: -5612175736892379228
       vertices: []
       indices: 
       edges: []
@@ -284,19 +332,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Title_Screen_START(2)_0: -6268066406588128255
-      Title_Screen_START(2)_1: -3590802755355177825
-      Title_Screen_START(2)_2: 2977130567961608123
-      Title_Screen_START(2)_3: -6012654441300010280
-      Title_Screen_START(2)_4: -6301602265736531810
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

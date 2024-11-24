@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: c91f12cbd51a3ec41ace692f9c184b5d
+guid: e39361848244ae844a70c41035ba5b9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8293252976334206271
-    second: title_screen_start1_0
-  - first:
-      213: -5698094455122426852
-    second: title_screen_start1_1
-  - first:
-      213: 5536235255109872393
-    second: title_screen_start1_2
-  - first:
-      213: 5923623286643254832
-    second: title_screen_start1_3
-  - first:
-      213: 7852134654939443641
-    second: title_screen_start1_4
+      213: 4054354226335661079
+    second: finallinestwo-0014_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -177,106 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: title_screen_start1_0
+      name: finallinestwo-0014_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6
-        width: 221
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 4
+        width: 234
+        height: 375
+      alignment: 9
+      pivot: {x: 0.49814272, y: 0.0236805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ca06298b5278ec80800000000000000
-      internalID: -8293252976334206271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: title_screen_start1_1
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 5
-        width: 225
-        height: 313
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c140ec9684d4ce0b0800000000000000
-      internalID: -5698094455122426852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: title_screen_start1_2
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 0
-        width: 243
-        height: 316
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90b61ddd1a8a4dc40800000000000000
-      internalID: 5536235255109872393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: title_screen_start1_3
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 2
-        width: 217
-        height: 314
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0366a979effe43250800000000000000
-      internalID: 5923623286643254832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: title_screen_start1_4
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 0
-        width: 224
-        height: 314
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b13334cdd268fc60800000000000000
-      internalID: 7852134654939443641
+      spriteID: 71c375e10b5f34830800000000000000
+      internalID: 4054354226335661079
       vertices: []
       indices: 
       edges: []
@@ -284,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 31e97c807038e5e4196e2e0629eb01b1
     internalID: 0
     vertices: []
     indices: 
@@ -292,11 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Title_Screen_START(2)_0: -6268066406588128255
-      Title_Screen_START(2)_1: -3590802755355177825
-      Title_Screen_START(2)_2: 2977130567961608123
-      Title_Screen_START(2)_3: -6012654441300010280
-      Title_Screen_START(2)_4: -6301602265736531810
+      finallinestwo-0014_0: 4054354226335661079
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

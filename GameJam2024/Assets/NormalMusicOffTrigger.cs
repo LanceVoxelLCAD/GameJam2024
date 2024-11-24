@@ -3,7 +3,7 @@ using UnityEngine;
 public class NormalMusicOff : MonoBehaviour
 {
     // Reference to the AudioSource that plays the music
-    public AudioSource musicSource;
+    public AudioSource NormalMusic;
 
     // This method will be called when another collider enters the trigger
     private void OnTriggerEnter(Collider other)
@@ -12,9 +12,9 @@ public class NormalMusicOff : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Stop the music
-            if (musicSource != null)
+            if (NormalMusic != null)
             {
-                musicSource.Stop(); // or musicSource.Pause() if you want to pause it instead of stopping
+                NormalMusic.Stop(); // or NormalMusic.Pause() if you want to pause it instead of stopping
             }
         }
     }

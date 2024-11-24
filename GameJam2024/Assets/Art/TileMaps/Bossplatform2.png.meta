@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9caf887472a4418469904a9fbe8a8913
+guid: cf2fcadb0011d8543bcb45860d70b590
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9218619209267635897
-    second: finallinestwo-0003_0
+      213: -5375841520930054909
+    second: Bossplatform2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: finallinestwo-0003_0
+      name: Bossplatform2_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 5
-        width: 238
-        height: 364
-      alignment: 9
-      pivot: {x: 0.4726093, y: 0.022685122}
+        x: 39
+        y: 0
+        width: 211
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7499208eba2e01080800000000000000
-      internalID: -9218619209267635897
+      spriteID: 30d1b208e9c2565b0800000000000000
+      internalID: -5375841520930054909
       vertices: []
       indices: 
       edges: []
@@ -188,15 +188,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 269ebcbbc734c3847813682c993fd2dd
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      finallinestwo-0003_0: -9218619209267635897
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

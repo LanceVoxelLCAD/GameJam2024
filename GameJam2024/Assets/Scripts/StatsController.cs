@@ -30,5 +30,7 @@ public class StatsController : MonoBehaviour
         //    }
 
         monsterTxt.text = "x" + GameDataManager.instance.lifeAmount;
+
+        //boss healthbar?
     }
 }

@@ -1,22 +1,46 @@
 fileFormatVersion: 2
-guid: ad7f6a6e49522e643a24433dabda8a56
+guid: 50b2b279c3d2b654ca2975035f887ab1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3035112969601806093
-    second: Title_Screen_START_0
+      213: 7209755348524119397
+    second: SUPER CORRUPT_0
   - first:
-      213: -1418766565168075157
-    second: Title_Screen_START_1
+      213: -5115078091378750776
+    second: SUPER CORRUPT_1
   - first:
-      213: -1502291766393354343
-    second: Title_Screen_START_2
+      213: -308776217664280475
+    second: SUPER CORRUPT_2
   - first:
-      213: -1239386144201632745
-    second: Title_Screen_START_3
+      213: -5990864804609617199
+    second: SUPER CORRUPT_3
   - first:
-      213: 4787299080881775474
-    second: Title_Screen_START_4
+      213: -8207475256818276150
+    second: SUPER CORRUPT_4
+  - first:
+      213: 2148711188561191500
+    second: SUPER CORRUPT_5
+  - first:
+      213: -9027878429572451486
+    second: SUPER CORRUPT_6
+  - first:
+      213: -4638123418095224905
+    second: SUPER CORRUPT_7
+  - first:
+      213: -7034139203590905163
+    second: SUPER CORRUPT_8
+  - first:
+      213: 7108407975635511336
+    second: SUPER CORRUPT_9
+  - first:
+      213: -7325200015105085557
+    second: SUPER CORRUPT_10
+  - first:
+      213: 6514105930940819780
+    second: SUPER CORRUPT_11
+  - first:
+      213: -3651288302994179751
+    second: SUPER CORRUPT_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -177,13 +201,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Title_Screen_START_0
+      name: SUPER CORRUPT_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 11
-        width: 222
-        height: 313
+        x: 202
+        y: 850
+        width: 267
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f014b9b5dc11e5d0800000000000000
-      internalID: -3035112969601806093
+      spriteID: 565b0426a423e0460800000000000000
+      internalID: 7209755348524119397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START_1
+      name: SUPER CORRUPT_1
       rect:
         serializedVersion: 2
-        x: 178
-        y: 10
-        width: 225
-        height: 314
+        x: 717
+        y: 731
+        width: 400
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6ea4ff63578f4ce0800000000000000
-      internalID: -1418766565168075157
+      spriteID: 8ca8cf4a3979309b0800000000000000
+      internalID: -5115078091378750776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START_2
+      name: SUPER CORRUPT_2
       rect:
         serializedVersion: 2
-        x: 269
-        y: 4
-        width: 243
-        height: 317
+        x: 1274
+        y: 670
+        width: 181
+        height: 332
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99741231999c62be0800000000000000
-      internalID: -1502291766393354343
+      spriteID: 568280f7aa107bbf0800000000000000
+      internalID: -308776217664280475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START_3
+      name: SUPER CORRUPT_3
       rect:
         serializedVersion: 2
-        x: 430
-        y: 7
-        width: 217
-        height: 314
+        x: 1536
+        y: 709
+        width: 318
+        height: 318
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 714125f4ed0dccee0800000000000000
-      internalID: -1239386144201632745
+      spriteID: 1d29adf733c2cdca0800000000000000
+      internalID: -5990864804609617199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START_4
+      name: SUPER CORRUPT_4
       rect:
         serializedVersion: 2
-        x: 615
-        y: 5
-        width: 225
-        height: 314
+        x: 1109
+        y: 797
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,8 +299,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 273238d5627ef6240800000000000000
-      internalID: 4787299080881775474
+      spriteID: ac8e98e2db0391e80800000000000000
+      internalID: -8207475256818276150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 565
+        width: 390
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42e81f0171c1dd10800000000000000
+      internalID: 2148711188561191500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_6
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 440
+        width: 499
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2633ce9666886b280800000000000000
+      internalID: -9027878429572451486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_7
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 397
+        width: 323
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b77308335312afb0800000000000000
+      internalID: -4638123418095224905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_8
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 204
+        width: 228
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2a05da9a7b16e90800000000000000
+      internalID: -7034139203590905163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_9
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 466
+        width: 74
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828ee42546326a260800000000000000
+      internalID: 7108407975635511336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_10
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 157
+        width: 223
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fa9f69569a75a90800000000000000
+      internalID: -7325200015105085557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_11
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 163
+        width: 199
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4492efab4d0c66a50800000000000000
+      internalID: 6514105930940819780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SUPER CORRUPT_12
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 112
+        width: 428
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9593e7f32a4045dc0800000000000000
+      internalID: -3651288302994179751
       vertices: []
       indices: 
       edges: []
@@ -291,12 +483,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Title_Screen_START_0: -3035112969601806093
-      Title_Screen_START_1: -1418766565168075157
-      Title_Screen_START_2: -1502291766393354343
-      Title_Screen_START_3: -1239386144201632745
-      Title_Screen_START_4: 4787299080881775474
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

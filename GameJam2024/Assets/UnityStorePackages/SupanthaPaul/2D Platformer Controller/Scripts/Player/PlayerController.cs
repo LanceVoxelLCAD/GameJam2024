@@ -65,6 +65,9 @@ namespace SupanthaPaul
 		public GameObject penNib;
 		public Transform penTip;
 
+		private float nextShotTime = 0f;
+		public float shotDelay = 3f;
+
 		void Start()
 		{
 			// create pools for particles
@@ -260,9 +263,13 @@ namespace SupanthaPaul
 
 		void AdditionalActions()
 		{
-			if (Input.GetMouseButtonDown(0))
+			if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
 			{
-				Instantiate(penNib, penTip.position, penTip.rotation);
+                if (Time.time > nextShotTime)
+                {
+                    Instantiate(penNib, penTip.position, penTip.rotation);
+					nextShotTime = Time.time + shotDelay; //time now + cooldown until next shot
+                }
 			}
 		}
 

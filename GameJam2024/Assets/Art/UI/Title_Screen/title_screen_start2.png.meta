@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: e4f463347b62cb9409b84aa7c5079df8
+guid: 652074bfc85f1f947a377b832b546086
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6268066406588128255
-    second: Title_Screen_START(2)_0
+      213: 6544127951099883277
+    second: title_screen_start2_0
   - first:
-      213: -3590802755355177825
-    second: Title_Screen_START(2)_1
+      213: 3677551957764392306
+    second: title_screen_start2_1
   - first:
-      213: 2977130567961608123
-    second: Title_Screen_START(2)_2
+      213: -2899566386372763476
+    second: title_screen_start2_2
   - first:
-      213: -6012654441300010280
-    second: Title_Screen_START(2)_3
+      213: -3494468228130938694
+    second: title_screen_start2_3
   - first:
-      213: -6301602265736531810
-    second: Title_Screen_START(2)_4
+      213: 3582001392474123847
+    second: title_screen_start2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -177,12 +177,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Title_Screen_START(2)_0
+      name: title_screen_start2_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 23
-        width: 222
+        x: 0
+        y: 6
+        width: 221
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f630203b961da50800000000000000
+      internalID: 6544127951099883277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: title_screen_start2_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 5
+        width: 225
         height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,41 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10461c610da5309a0800000000000000
-      internalID: -6268066406588128255
+      spriteID: 275c695650a490330800000000000000
+      internalID: 3677551957764392306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START(2)_1
+      name: title_screen_start2_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 22
-        width: 225
-        height: 314
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9c8f8c3be7ea2ec0800000000000000
-      internalID: -3590802755355177825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Title_Screen_START(2)_2
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 16
+        x: 259
+        y: 0
         width: 243
-        height: 317
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,18 +233,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbffe416a74e05920800000000000000
-      internalID: 2977130567961608123
+      spriteID: ca0a691fbbba2c7d0800000000000000
+      internalID: -2899566386372763476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START(2)_3
+      name: title_screen_start2_3
       rect:
         serializedVersion: 2
-        x: 432
-        y: 19
+        x: 420
+        y: 2
         width: 217
         height: 314
       alignment: 0
@@ -254,19 +254,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8da532d54a2ce8ca0800000000000000
-      internalID: -6012654441300010280
+      spriteID: ab0ed5739a7218fc0800000000000000
+      internalID: -3494468228130938694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Title_Screen_START(2)_4
+      name: title_screen_start2_4
       rect:
         serializedVersion: 2
-        x: 617
-        y: 17
-        width: 225
+        x: 605
+        y: 0
+        width: 224
         height: 314
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -275,8 +275,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e903afa60263c88a0800000000000000
-      internalID: -6301602265736531810
+      spriteID: 74eef57c943d5b130800000000000000
+      internalID: 3582001392474123847
       vertices: []
       indices: 
       edges: []

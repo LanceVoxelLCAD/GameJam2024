@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      last tileable 4_0: 274754626602704022
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

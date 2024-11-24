@@ -7,11 +7,25 @@ using UnityEngine.UI;
 public class Damagable : MonoBehaviour
 {
     public float health = 100f;
+    private float maxBossHealth = 500f;
     public Slider bossHealthBar;
+    public GameObject cornerSpriteGood;
+    public GameObject cornerSpriteHurt;
 
     public void Damage(float damageAmount)
     {
         health -= damageAmount;
+
+        if (health <= (.25 * maxBossHealth) && gameObject.name == "BigBoss")
+        {
+            cornerSpriteGood.SetActive(false);
+            cornerSpriteHurt.SetActive(true);
+        }
+        else if (health > (.25 * maxBossHealth) && gameObject.name == "BigBoss")
+        {
+            cornerSpriteGood.SetActive(true);
+            cornerSpriteHurt.SetActive(false);
+        }
 
         if (health <= 0)
         {

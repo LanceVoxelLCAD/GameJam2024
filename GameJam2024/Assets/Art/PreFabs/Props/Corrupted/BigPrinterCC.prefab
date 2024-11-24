@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1061048213467944760}
   - component: {fileID: 1432616438086864656}
   - component: {fileID: 2430745961704736138}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BigPrinterCC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

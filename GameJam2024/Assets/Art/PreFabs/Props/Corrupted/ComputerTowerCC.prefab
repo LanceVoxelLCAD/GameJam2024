@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5029516886520892455}
   - component: {fileID: 2252791388402071639}
   - component: {fileID: 5378237349096523304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ComputerTowerCC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

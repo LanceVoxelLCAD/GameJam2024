@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5029516886520892455}
   - component: {fileID: 112681163816140943}
   - component: {fileID: 2753465213434399984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XenceCC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

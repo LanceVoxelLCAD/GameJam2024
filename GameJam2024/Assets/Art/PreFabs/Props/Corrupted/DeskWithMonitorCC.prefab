@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6421992124108809687}
   - component: {fileID: 6063077579099598042}
   - component: {fileID: 6998033522313322880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeskWithMonitorCC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

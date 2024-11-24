@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5029516886520892455}
   - component: {fileID: 19067273037289377}
   - component: {fileID: 7600250191778780885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FrameShapesCC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

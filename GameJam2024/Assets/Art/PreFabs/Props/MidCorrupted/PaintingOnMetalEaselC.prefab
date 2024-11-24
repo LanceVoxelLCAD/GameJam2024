@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1664200736044044506}
   - component: {fileID: 1242721121303708359}
   - component: {fileID: 6488781819663813812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintingOnMetalEaselC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5029516886520892455}
   - component: {fileID: 8075850836284638905}
   - component: {fileID: 72824232404372241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DeskWithSmallComputersC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

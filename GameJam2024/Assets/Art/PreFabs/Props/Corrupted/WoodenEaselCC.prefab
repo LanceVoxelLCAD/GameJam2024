@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9025423821146482255}
   - component: {fileID: 1546987427941945641}
   - component: {fileID: 7654058695629980738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WoodenEaselCC
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -21,13 +21,13 @@ public class StatsController : MonoBehaviour
 
     public void UpdateUI()
     {
-        if (Input.GetKeyDown(KeyCode.H)) //DEBUG
-        {
-            GameDataManager.instance.lifeAmount++;
-        } else if (Input.GetKeyDown(KeyCode.J)) //DEBUG
-        {
-            GameDataManager.instance.lifeAmount--;
-        }
+        //    if (Input.GetKeyDown(KeyCode.H)) //DEBUG
+        //    {
+        //        GameDataManager.instance.lifeAmount++;
+        //    } else if (Input.GetKeyDown(KeyCode.J)) //DEBUG
+        //    {
+        //        GameDataManager.instance.lifeAmount--;
+        //    }
 
         monsterTxt.text = "x" + GameDataManager.instance.lifeAmount;
     }

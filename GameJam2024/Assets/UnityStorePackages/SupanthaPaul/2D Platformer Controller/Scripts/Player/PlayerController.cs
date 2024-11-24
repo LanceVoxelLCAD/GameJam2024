@@ -69,6 +69,8 @@ namespace SupanthaPaul
 		public float shotDelay = 3f;
 
 		public Vector2 lastGroundedPos;
+		public bool paused = false;
+		public GameObject pauseMenu;
 
 		void Start()
 		{
@@ -286,7 +288,19 @@ namespace SupanthaPaul
 					nextShotTime = Time.time + shotDelay; //time now + cooldown until next shot
                 }
 			}
-		}
+
+            if (Input.GetKeyDown(KeyCode.Escape) && !paused)
+            {
+				pauseMenu.SetActive(true);
+                Time.timeScale = 0;
+				paused = true;
+            } else if (Input.GetKeyDown(KeyCode.Escape) && paused)
+			{
+				pauseMenu.SetActive(false);
+				Time.timeScale = 1;
+				paused = false;
+			}
+        }
 
         void Flip()
 		{

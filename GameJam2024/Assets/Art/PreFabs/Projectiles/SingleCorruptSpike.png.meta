@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6e2da1fe7ec9f604c8e425b0f905abe2
+guid: 3000ef1050bd2b84fa7bc76871bc8963
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7405762479881987002
-    second: boss arena-noglitch_0
+      213: 5082895037837747480
+    second: SingleCorruptSpike_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss arena-noglitch_0
+      name: SingleCorruptSpike_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 363
+        y: 195
+        width: 693
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64cd7bf0342793990800000000000000
-      internalID: -7405762479881987002
+      spriteID: 8152ae84b121a8640800000000000000
+      internalID: 5082895037837747480
       vertices: []
       indices: 
       edges: []
@@ -195,8 +195,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      boss arena-noglitch_0: -7405762479881987002
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

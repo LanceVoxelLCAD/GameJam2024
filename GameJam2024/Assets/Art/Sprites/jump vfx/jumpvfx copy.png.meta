@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 7bebdb56a3b706349ac0536a6e648b79
+guid: 607056b9dd782ec4d933dd665a94539b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4072598593252468119
-    second: jump1_0
+      213: 7355825083403411101
+    second: jumpvfx copy_0
+  - first:
+      213: -7425020206395618574
+    second: jumpvfx copy_1
+  - first:
+      213: 1710568979700832881
+    second: jumpvfx copy_2
+  - first:
+      213: 136625943662407236
+    second: jumpvfx copy_3
+  - first:
+      213: -1792282008296796709
+    second: jumpvfx copy_4
+  - first:
+      213: 6316939687989925539
+    second: jumpvfx copy_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +63,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -75,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +180,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jump1_0
+      name: jumpvfx copy_0
       rect:
         serializedVersion: 2
-        x: 596
-        y: 348
-        width: 435
-        height: 212
+        x: 0
+        y: 227
+        width: 59
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 795a19fc7d6c48830800000000000000
-      internalID: 4072598593252468119
+      spriteID: cf533eac4272bae46a2c4e115f4f1265
+      internalID: 360378211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpvfx copy_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e321c06c6e59dae4abe1867e79e68db4
+      internalID: -1755424347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpvfx copy_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 59
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19c7bb1a296588498c80ff1b4404380
+      internalID: -1478170131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpvfx copy_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f0f0d91bb6fb4abae1dfe4ccbf778
+      internalID: -213441066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumpvfx copy_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd99d35576250ba4ea4868395abb24d9
+      internalID: 2000891720
       vertices: []
       indices: 
       edges: []
@@ -188,7 +287,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: da1faec926f844c40a086d06556dfcbc
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +295,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      jump1_0: 4072598593252468119
+      jumpvfx copy_0: 360378211
+      jumpvfx copy_1: -1755424347
+      jumpvfx copy_2: -1478170131
+      jumpvfx copy_3: -213441066
+      jumpvfx copy_4: 2000891720
+      jumpvfx copy_6: 1160924675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

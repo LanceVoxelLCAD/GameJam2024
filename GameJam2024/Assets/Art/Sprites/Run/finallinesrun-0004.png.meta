@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 11ae3379ca187e644a69aac55aa06540
+guid: 29222a6be1874c84aa90c422360927da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1722694012607711005
-    second: windows_tut2_0
+      213: -6830604905907483011
+    second: finallinesrun-0004_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: windows_tut2_0
+      name: finallinesrun-0004_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 795
-        height: 488
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 5
+        width: 245
+        height: 418
+      alignment: 9
+      pivot: {x: 0.45033157, y: 0.037329793}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e833d93ce2c718e0800000000000000
-      internalID: -1722694012607711005
+      spriteID: d7e08563701d431a0800000000000000
+      internalID: -6830604905907483011
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 57f03ec2033d9694698f4eb5f5b64ef0
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      windows_tut2_0: -1722694012607711005
+      finallinesrun-0004_0: -6830604905907483011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

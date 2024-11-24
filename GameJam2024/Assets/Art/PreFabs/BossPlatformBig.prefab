@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7257694321342362427}
   - component: {fileID: 5271276424816774401}
   - component: {fileID: 6295516396339428351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BossPlatformBig
   m_TagString: Untagged
   m_Icon: {fileID: 0}

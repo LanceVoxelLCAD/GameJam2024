@@ -6,7 +6,6 @@ using UnityEngine;
 public class StatsController : MonoBehaviour
 {
     public TMP_Text monsterTxt;
-    public float lifeAmount;
 
     // Start is called before the first frame update
     void Start()
@@ -22,14 +21,16 @@ public class StatsController : MonoBehaviour
 
     public void UpdateUI()
     {
-        if (Input.GetKeyDown(KeyCode.H)) //DEBUG
-        {
-            lifeAmount++;
-        } else if (Input.GetKeyDown(KeyCode.J)) //DEBUG
-        {
-            lifeAmount--;
-        }
+        //    if (Input.GetKeyDown(KeyCode.H)) //DEBUG
+        //    {
+        //        GameDataManager.instance.lifeAmount++;
+        //    } else if (Input.GetKeyDown(KeyCode.J)) //DEBUG
+        //    {
+        //        GameDataManager.instance.lifeAmount--;
+        //    }
 
-        monsterTxt.text = "x" + lifeAmount;
+        monsterTxt.text = "x" + GameDataManager.instance.lifeAmount;
+
+        //boss healthbar?
     }
 }

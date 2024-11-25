@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d8e4fb238e2850f468dc1993462946bd
+guid: ae11c83530e068c4e88dac36329b022a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3493061440596027176
-    second: Idleboss-0006_0
+      213: 4646014430063692765
+    second: attackbosscolor-0001_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idleboss-0006_0
+      name: attackbosscolor-0001_0
       rect:
         serializedVersion: 2
-        x: 263
-        y: 49
-        width: 573
-        height: 436
+        x: 0
+        y: 0
+        width: 1280
+        height: 720
       alignment: 9
-      pivot: {x: 0.5113799, y: 0.06462655}
+      pivot: {x: 0.50370616, y: 0.0045163864}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82727598fd8d97030800000000000000
-      internalID: 3493061440596027176
+      spriteID: ddb094d2285f97040800000000000000
+      internalID: 4646014430063692765
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 859d7bc86078e1c43bb95cf706477f4d
+    spriteID: 661d7bb15c798bd4b8a6037437d4d4ff
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idleboss-0006_0: 3493061440596027176
+      attackbosscolor-0001_0: 4646014430063692765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d8e4fb238e2850f468dc1993462946bd
+guid: 30492df68efa2da45b4215770714214f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3493061440596027176
-    second: Idleboss-0006_0
+      213: -3639407633958243095
+    second: Biggie wig start_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -165,22 +165,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idleboss-0006_0
+      name: Biggie wig start_0
       rect:
         serializedVersion: 2
-        x: 263
-        y: 49
-        width: 573
-        height: 436
-      alignment: 9
-      pivot: {x: 0.5113799, y: 0.06462655}
+        x: 4
+        y: 0
+        width: 795
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82727598fd8d97030800000000000000
-      internalID: 3493061440596027176
+      spriteID: 9e4f2111a0a3e7dc0800000000000000
+      internalID: -3639407633958243095
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 859d7bc86078e1c43bb95cf706477f4d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +196,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idleboss-0006_0: 3493061440596027176
+      Biggie wig start_0: -3639407633958243095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

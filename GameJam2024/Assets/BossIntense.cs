@@ -6,6 +6,7 @@ public class BossIntense : MonoBehaviour
 {
     AudioSource source;
     Collider2D soundTrigger;
+    public bool isPlaying = false;
 
     private void Awake()
     {
@@ -19,7 +20,12 @@ public class BossIntense : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        source.Play();
+        if (!isPlaying)
+        {
+            source.Play();
+            isPlaying = true;
+        }
+        
     }
 }
 

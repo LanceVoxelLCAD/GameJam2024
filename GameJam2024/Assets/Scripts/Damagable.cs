@@ -12,6 +12,11 @@ public class Damagable : MonoBehaviour
     public GameObject BigBoss;
     public GameObject cornerSpriteGood;
     public GameObject cornerSpriteHurt;
+    public float waitForBossUI = 4f;
+    public float timeBossKilled;
+    public bool bossPhase2 = false;
+    public GameObject bossUI;
+    public GameObject smolBossAttacks;
 
     public void Damage(float damageAmount)
     {
@@ -30,7 +35,10 @@ public class Damagable : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            if (gameObject.name != "Bossnormalfinal")
+            {
+                Destroy(gameObject);
+            }
 
             if (gameObject.name == "BigBoss")
             {
@@ -39,7 +47,10 @@ public class Damagable : MonoBehaviour
 
             if (gameObject.name == "Bossnormalfinal")
             {
-                BigBoss.SetActive(true);
+                timeBossKilled = Time.time;
+                bossPhase2 = true;
+                smolBossAttacks.SetActive(false);
+                bossUI.SetActive(true);
             }
         }
     }
@@ -49,6 +60,13 @@ public class Damagable : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Boss")
         {
             bossHealthBar.value = health;
+        }
+
+        if (bossPhase2 && Time.time > (waitForBossUI + timeBossKilled))
+        {
+            bossUI.SetActive(false);
+            Destroy(gameObject);
+            BigBoss.SetActive(true);
         }
     }
 }
